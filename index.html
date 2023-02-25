@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Atul_Kumar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" type="png" href="image/icon1.png">
+    <script src="https://kit.fontawesome.com/f67e4087d2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hello, I'm <span>Atul</span> <br> Kumar From <br> New Delhi </h1>
+            </div>
+        </div>
+    </div>
+    <!----------------------------About------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me </h1>
+                    <p>My name is Atul Kumar. I live in Dwarka, Delhi. I have Done My Engineering in Computer Science.
+                        Also I have Done Internship at HCL Position Hardware Assembler Engineer in 2018. Now I'm Looking
+                        For Good Company Unhance My Technical Skills & Development Skills.<br> Hobbies Playing Football,
+                        Assembling Computer Hardware Parts, Coding, and Music.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-container  active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-container" id="experience">
+                        <ul>
+                            <li><span>2021 - 2022</span><br>UI/UX Design Training at DSEU Rajokari Institute</li>
+                            <li><span>2018</span><br>Computer Hardware Assembler at HCL Ltd.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-container" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Computer Engineering From DSEU Rajokari Campus</li>
+                            <li><span>2017</span><br>10 + 2 in Commerce From CBSE</li>
+                            <li><span>2015</span><br>10th From CBSE </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------Services------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web development, also known as website development, refers to the tasks associated with creating,
+                        building, and maintaining websites and web applications that run online on a browser. It may,
+                        however, also include web design, web programming, and database management.</p>
+                    <a href="https://www.wix.com/blog/2021/05/web-design/#:~:text=Web%20design%20is%20the%20art,fonts%2C%20graphics%20and%20user%20interface." target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>With a decade-long experience in UI/UX designing, our creative team of designers offers a full
+                        range of web and mobile app design services, from prototyping and graphic design to
+                        pixel-perfect UI</p>
+                    <a href="https://www.chetu.com/solutions/ui-ux.php" target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-apple"></i>
+                    <h2>App Design</h2>
+                    <p>Want to go for an extremely functional and exclusive iOS app development to meet your business
+                        needs? Akumar is the right destination for you to create and launch your next-gen iPhone/iOS app
+                        built with state-of-the-art technologies.</p>
+                    <a href="https://careerfoundry.com/en/blog/ui-design/how-to-design-a-mobile-app-using-user-interface-design-principles/" target="_blank">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!----------------------------Portfolio------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/hath@3x-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>We develop tools for our clients to get insights into how their social campaigns are
+                            performing, how users are interacting with their app, the experience they are enjoying and
+                            instances where they are leaving the app.</p>
+                        <a href="https://www.disciplemedia.com/community-monetizations/create-a-social-media-app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Every year, we have an increasing number of customers that want to use our services to
+                            develop a music app. In this post, we’re going to be reviewing some of the bigger apps
+                            already available on the market and taking a look at what users like and dislike about these
+                            apps.</p>
+                        <a href="https://theappsolutions.com/blog/development/music-app-development/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/online.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Content may not be copied, reproduced, distributed, displayed, downloaded or otherwise used
+                            for any purpose without the prior written consent of owners</p>
+                        <a href="https://woxapp.com/our-blog/how-to-develop-a-shopping-app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See More</a>
+        </div>
+    </div>
+    <!----------------------------Contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> sandyraj589@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i></i>+91-9560310858</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/sandy.sandy.5074766" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/AbazzAtul" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/official_atull_rao/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/atul-kumar-a5b932136/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="image/my-cv.pdf" target="_blank" download class="btn btn2" target="_blank">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2022 © Atul. All rights reserved wtih <i class="fas fa-heart"></i> by Akumar</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontainer = document.getElementsByClassName("tab-container");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontainer of tabcontainer) {
+                tabcontainer.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
